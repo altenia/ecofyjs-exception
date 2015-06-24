@@ -1,0 +1,29 @@
+{
+  "name": "ecofyjs-exception",
+  "version": "0.0.1",
+  "description": "Includes an exception class that encapsulates useuful information for system debugging.",
+  "main": "lib/exception.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd  --recursive --reporter spec test --timeout 40000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecolearnia/ecofyjs-exception.git"
+  },
+  "keywords": [
+    "javascript",
+    "error",
+    "exception"
+  ],
+  "author": "Young Suk Ahn Park",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecolearnia/ecofyjs-exception/issues"
+  },
+  "homepage": "https://github.com/ecolearnia/ecofyjs-exception",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "expect": "^1.6.0",
+    "mocha": "^2.2.5"
+  }
+}
